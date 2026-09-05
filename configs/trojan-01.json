@@ -1,0 +1,21 @@
+{
+  "name": "trojan-01",
+  "type": "trojan-ws",
+
+  "server": {
+    "host": "192.168.1.250"
+  },
+
+  "listen": {
+    "host": "0.0.0.0",
+    "port": 8081
+  },
+
+  "websocket": {
+    "path": "/trojan-ws"
+  },
+
+  "trojan": {
+    "password": "my-secret-password"
+  }
+}

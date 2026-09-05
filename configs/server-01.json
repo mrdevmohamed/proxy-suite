@@ -1,0 +1,21 @@
+{
+  "name": "server-01",
+  "type": "vless-ws",
+
+  "server": {
+    "host": "192.168.1.250"
+  },
+
+  "listen": {
+    "host": "0.0.0.0",
+    "port": 8080
+  },
+
+  "websocket": {
+    "path": "/vless-ws"
+  },
+
+  "vless": {
+    "uuid": "00000000-0000-4000-8000-000000000001"
+  }
+}
